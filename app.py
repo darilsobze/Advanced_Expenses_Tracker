@@ -12,7 +12,7 @@ def home():
     return "Hello World"
 
 
-@app.route('/add_expense', methods=["POST"])
+@app.route("/add_expense", methods=["POST"])
 def add_expense():
     try:
         data = request.get_json()
